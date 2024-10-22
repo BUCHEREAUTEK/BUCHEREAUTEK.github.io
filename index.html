@@ -1,49 +1,62 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Organisation XYZ</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Bienvenue sur le site de l'organisation XYZ</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">À Propos</a></li>
-                <li><a href="#products">Produits</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-    <section id="about">
-        <h2>À Propos de Nous</h2>
-        <p>Nous sommes une organisation qui se consacre à ...</p>
-        <img src="photo1.jpg" alt="Image de l'organisation" class="org-image">
-    </section>
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
 
-    <section id="products">
-        <h2>Nos Produits</h2>
-        <div class="product">
-            <img src="produit1.jpg" alt="Produit 1" class="product-image">
-            <h3>Produit 1</h3>
-            <p>Description du produit 1.</p>
-            <button>Acheter</button>
-        </div>
-        <div class="product">
-            <img src="produit2.jpg" alt="Produit 2" class="product-image">
-            <h3>Produit 2</h3>
-            <p>Description du produit 2.</p>
-            <button>Acheter</button>
-        </div>
-    </section>
+nav ul {
+    list-style: none;
+    padding: 0;
+}
 
-    <footer id="contact">
-        <h2>Contactez-nous</h2>
-        <p>Email: contact@organisationxyz.com</p>
-        <p>Téléphone: +33 1 23 45 67 89</p>
-    </footer>
-</body>
-</html>
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 15px;
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+.org-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product {
+    border: 1px solid #35424a;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+}
