@@ -1,23 +1,20 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #222;
-    color: #ddd;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #333;
-    padding: 20px;
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
     text-align: center;
 }
 
-header h1 {
-    margin: 0;
-}
-
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
@@ -27,34 +24,39 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ddd;
+    color: #ffffff;
     text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
 }
 
 section {
     padding: 20px;
+    margin: 15px;
+    background: #ffffff;
+    border-radius: 8px;
 }
 
-.article {
-    background-color: #444;
-    margin: 20px 0;
-    padding: 15px;
+.org-image {
+    width: 100%;
+    height: auto;
     border-radius: 5px;
 }
 
-.article h3 {
-    margin: 0;
+.product {
+    border: 1px solid #35424a;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
 }
 
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
 }
