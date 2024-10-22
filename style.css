@@ -33,6 +33,11 @@ h1, h2, h3, h5 {
     text-align: center;
 }
 
+title {
+    margin: 10px 0;
+    text-align: center;
+}
+
 main {
     padding: 20px;
 }
