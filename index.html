@@ -1,62 +1,48 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUCHEREAUTEK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur BUCHEREAUTEK</h1>
+        <nav>
+            <ul>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 10px 0;
-    text-align: center;
-}
+    <main>
+        <section id="articles">
+            <h2>Nos Articles</h2>
+            <div class="article">
+                <img src="image1.jpg" alt="Article 1">
+                <h3>Article 1</h3>
+                <p>Description de l'article 1.</p>
+                <button>Acheter</button>
+            </div>
+            <div class="article">
+                <img src="image2.jpg" alt="Article 2">
+                <h3>Article 2</h3>
+                <p>Description de l'article 2.</p>
+                <button>Acheter</button>
+            </div>
+            <div class="article">
+                <img src="image3.jpg" alt="Article 3">
+                <h3>Article 3</h3>
+                <p>Description de l'article 3.</p>
+                <button>Acheter</button>
+            </div>
+        </section>
+    </main>
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-section {
-    padding: 20px;
-    margin: 15px;
-    background: #ffffff;
-    border-radius: 8px;
-}
-
-.org-image {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.product {
-    border: 1px solid #35424a;
-    border-radius: 5px;
-    margin: 15px 0;
-    padding: 10px;
-    text-align: center;
-}
-
-.product-image {
-    width: 100%;
-    height: auto;
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #35424a;
-    color: #ffffff;
-}
+    <footer>
+        <p>&copy; 2023 BUCHEREAUTEK. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
