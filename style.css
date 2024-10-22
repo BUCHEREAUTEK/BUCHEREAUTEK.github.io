@@ -1,20 +1,20 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    background-color: white;
+    color: black;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
 header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 10px 0;
+    background-color: black;
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
 
@@ -24,39 +24,48 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
 }
 
-section {
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+main {
     padding: 20px;
-    margin: 15px;
-    background: #ffffff;
-    border-radius: 8px;
 }
 
-.org-image {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.product {
-    border: 1px solid #35424a;
-    border-radius: 5px;
-    margin: 15px 0;
-    padding: 10px;
+.article {
+    border: 1px solid black;
+    margin: 20px 0;
+    padding: 20px;
     text-align: center;
 }
 
-.product-image {
-    width: 100%;
+.article img {
+    max-width: 100%;
     height: auto;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: grey;
 }
 
 footer {
+    background-color: black;
+    color: white;
     text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
     padding: 10px 0;
-    background: #35424a;
-    color: #ffffff;
 }
