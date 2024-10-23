@@ -135,6 +135,11 @@ main {
     z-index: 1;
     overflow: hidden;
 }
+    .instagram.png {
+        width: 300px;  /* Largeur fixe */
+        height: 200px; /* Hauteur fixe */
+    }
+</style>
 
 footer {
     background-color: black;
