@@ -132,11 +132,8 @@ main {
     position: relative;
     z-index: 1;
     overflow: auto;
-    width: 300px;        /* Largeur fixe */
-    padding: 20px;       /* Padding interne */
-    margin: 0 auto;      /* Centre l'élément horizontalement */
-    background-color: lightblue;
-    text-align: center;   /* Centre le texte à l'intérieur de la boîte */
+    align-items: center;
+    justify-content: center;
 }
 footer {
     background-color: black;
