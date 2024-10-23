@@ -56,11 +56,40 @@ button {
     border: none;
     padding: 10px 15px;
     cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
 }
 
 button:hover {
     background-color: grey;
 }
+
+button::after{
+    content: "";
+    background: green;
+    position: absolute;
+    z-index: -1;
+    left: -15%;
+    rigths: -15%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0,1);
+}
+
+
+button:hover::after{
+    transform: skewX(-45deg) scale(1,1);
+    transition: all 0.5s;
+}
+
+
+button:active{
+    transform: translate(2px);
+    box-shadow: 0 5px 10px rgb(red, green, blue);
+    color: black;
+}
+
 
 footer {
     background-color: black;
