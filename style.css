@@ -87,7 +87,7 @@ button:hover::after{
 button:active{
     transform: translate(2px);
     box-shadow: 0 5px 10px rgb(red, green, blue);
-    color: black;
+    color: red;
 }
 
 
