@@ -50,7 +50,7 @@ main {
     align: center;
 }
 
-button {
+.btn-acheter{
     background-color: black;
     color: white;
     border: none;
@@ -61,11 +61,11 @@ button {
     overflow: hidden;
 }
 
-button:hover {
+.btn-acheter:hover{
     background-color: grey;
 }
 
-button::after{
+.btn-acheter::after{
     content: "";
     background: green;
     position: absolute;
@@ -78,13 +78,13 @@ button::after{
 }
 
 
-button:hover::after{
+.btn-acheter:hover::after{
     transform: skewX(-45deg) scale(1,1);
     transition: all 0.5s;
 }
 
 
-button:active{
+.btn-acheter:active{
     transform: translate(2px);
     box-shadow: 0 5px 10px rgb(red, green, blue);
     color: red;
