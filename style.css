@@ -132,6 +132,26 @@ main {
     justify-content: center;
     heigth: 100vh;
 }
+.btn-soundcloud{
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    heigth: 100vh;
+}
+.btn-tiktok{
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    heigth: 100vh;
+}
 footer {
     background-color: black;
     color: white;
