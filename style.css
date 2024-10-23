@@ -122,6 +122,42 @@ main {
   color: white;
 }
 
+.btn-instagram{
+    background-color: black;
+    color: white;
+    border: 1;
+  border-radius: 15px;
+  front-size: 20px;
+  front-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: fixed;
+    bottom: px;
+    right: px;
+    z-index: 1;
+    overflow: hidden;
+}
+.btn-instagram:hover{
+    background-color: grey;
+}
+
+.btn-instagram::after{
+    content: "";
+    background: red;
+    position: absolute;
+    z-index: -1;
+    left: -15%;
+    rigths: -15%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-50deg) scale(0,1);
+}
+
+.btn-instagram:active{
+  transform: translate(3px);
+  box-shadow: 0 10px 20px rgb(255, 255, 255, 0.60);
+  color: white;
+}
 
 footer {
     background-color: black;
