@@ -134,6 +134,7 @@ main {
     overflow: auto;
     align-items: center;
     justify-content: center;
+    heigth: 100vh;
 }
 footer {
     background-color: black;
